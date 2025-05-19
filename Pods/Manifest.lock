@@ -1,0 +1,259 @@
+PODS:
+  - Agrume (5.8.6):
+    - SwiftyGif
+  - Alamofire (5.8.0)
+  - AlicloudPush (1.9.9):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.16):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.5.0.94)
+  - AlicloudUtils (1.4.1):
+    - AlicloudUTDID
+  - Argo (5.0.0):
+    - Runes (>= 5.0.0)
+  - Bugly (2.5.0)
+  - Bugtags (3.0.1):
+    - Bugtags/Core (= 3.0.1)
+  - Bugtags/Core (3.0.1)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Swift (3.4.2):
+    - CocoaLumberjack/Default
+  - Curry (5.0.0)
+  - Differentiator (5.0.0)
+  - DropDown (2.3.9)
+  - ESTabBarController-swift (2.6.2)
+  - FSPagerView (0.8.1)
+  - GradientProgressBar (1.2.9):
+    - LightweightObservable (~> 1.0)
+  - HappyDNS (0.3.17)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - JGProgressHUD (2.0)
+  - Kingfisher (7.9.1)
+  - LightweightObservable (1.0.3)
+  - lottie-ios (3.0.7)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - MJRefresh (3.1.15.3)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - Nimble (13.0.0)
+  - Pageboy (4.0.2)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - Quick (7.3.0)
+  - Result (5.0.0)
+  - Runes (5.1.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxKeyboard (2.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxOptional (5.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SnapKit (4.0.1)
+  - Socket.IO-Client-Swift (13.1.3):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - SwiftDate (7.0.0)
+  - SwiftNotificationCenter (1.0.3)
+  - SwiftState (5.0.0)
+  - SwiftyGif (5.4.4)
+  - SwiftyStoreKit (0.16.1)
+  - Tabman (3.0.2):
+    - Pageboy (~> 4.0.2)
+  - TBEmptyDataSet (2.7)
+  - Toast-Swift (4.0.0)
+  - ZIPFoundation (0.9.6)
+
+DEPENDENCIES:
+  - Agrume
+  - Alamofire
+  - AlicloudPush (= 1.9.9)
+  - Argo
+  - Bugly (= 2.5.0)
+  - Bugtags (= 3.0.1)
+  - CocoaLumberjack/Swift (= 3.4.2)
+  - Curry
+  - DropDown (= 2.3.9)
+  - ESTabBarController-swift (from `https://github.com/wongzigii/ESTabBarController.git`, branch `master`)
+  - FSPagerView (= 0.8.1)
+  - GradientProgressBar (~> 1.0)
+  - JGProgressHUD (= 2.0)
+  - Kingfisher (~> 7.9.1)
+  - lottie-ios (~> 3.0.0)
+  - MessageKit
+  - MJRefresh (= 3.1.15.3)
+  - Moya/RxSwift
+  - Nimble
+  - Qiniu (= 7.2.5)
+  - Quick
+  - Result (~> 5.0)
+  - Runes
+  - RxDataSources
+  - RxGesture
+  - RxKeyboard
+  - RxOptional
+  - RxSwift
+  - RxSwiftExt
+  - SnapKit (= 4.0.1)
+  - Socket.IO-Client-Swift (~> 13.1.0)
+  - SwiftDate (~> 7.0.0)
+  - SwiftNotificationCenter (= 1.0.3)
+  - SwiftState (from `https://github.com/ReactKit/SwiftState.git`, branch `swift/4.0`)
+  - SwiftyStoreKit
+  - Tabman (= 3.0.2)
+  - TBEmptyDataSet (= 2.7)
+  - Toast-Swift (= 4.0.0)
+  - ZIPFoundation (= 0.9.6)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+  https://github.com/CocoaPods/Specs.git:
+    - Agrume
+    - Alamofire
+    - Argo
+    - Bugly
+    - Bugtags
+    - CocoaLumberjack
+    - Curry
+    - Differentiator
+    - DropDown
+    - FSPagerView
+    - GradientProgressBar
+    - HappyDNS
+    - InputBarAccessoryView
+    - JGProgressHUD
+    - Kingfisher
+    - LightweightObservable
+    - lottie-ios
+    - MessageKit
+    - MJRefresh
+    - Moya
+    - Nimble
+    - Pageboy
+    - Qiniu
+    - Quick
+    - Result
+    - Runes
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxKeyboard
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftDate
+    - SwiftNotificationCenter
+    - SwiftyGif
+    - SwiftyStoreKit
+    - Tabman
+    - TBEmptyDataSet
+    - Toast-Swift
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  ESTabBarController-swift:
+    :branch: master
+    :git: https://github.com/wongzigii/ESTabBarController.git
+  SwiftState:
+    :branch: swift/4.0
+    :git: https://github.com/ReactKit/SwiftState.git
+
+CHECKOUT OPTIONS:
+  ESTabBarController-swift:
+    :commit: 48bf7260ba23ce7324908b03e11d8e5ed7766be1
+    :git: https://github.com/wongzigii/ESTabBarController.git
+  SwiftState:
+    :commit: 1c53ce12ca939bae2b329196d24a3b636acca3e3
+    :git: https://github.com/ReactKit/SwiftState.git
+
+SPEC CHECKSUMS:
+  Agrume: 0fc0056444b81009b74fbe7bce71ce1f7561f50b
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AlicloudPush: c7cfdbd6a8034507c8772a052737f13ce607f32e
+  AlicloudUT: 6d1cf30d57d096b7e9bb4b069dd0ba6ad59a3338
+  AlicloudUTDID: 7323c443dcdf9a73e2224dc6ce51703671d7a765
+  AlicloudUtils: 873a76615bebcee8b1996f20820d366e433c3eab
+  Argo: 9c73ffc87202ad7db82580786cca054153249624
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  Bugtags: 3115fa971bc3901828bb204c62cd1523173dbc97
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  Curry: 9807b3a3e5056d73c38c7eeb3cf846cd88cd3d2a
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  DropDown: d187d4abdfa708a2990aff0f4fcfab77c6b161df
+  ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
+  FSPagerView: 4e865526acc0b0e3077e2abb29b8d10a9f395476
+  GradientProgressBar: a4d967bded9d749f2abbe657b600dfe0b34357d0
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  JGProgressHUD: c402c0f41fc291ca7e33bba2f999118d9682dd9c
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  LightweightObservable: 8687e8e1e2940ae2f64d7f71fe78c036d89c966f
+  lottie-ios: c38c3178ae8c4a8f200661aa5f80b9f1ca7f56b3
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nimble: 97d90931cca412a23224ff29e258809f75c258f7
+  Pageboy: 34ff11e8d1041b81769d5bcde9b19a0cb7218bd9
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  Quick: d32871931c05547cb4e0bc9009d66a18b50d8558
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  Runes: c9634b39d102aa684a12deaa3611f2643a0bb0a1
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxKeyboard: 4f5863f43b4ff0cbb2a20b94688d6b80c8a43c14
+  RxOptional: 3664964c96b69dd20c9cf78bdfe546615e26eca8
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Socket.IO-Client-Swift: d30d6fd08a38ad2a182b090936a043bf512ab2de
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwiftNotificationCenter: 309e912a10d664ef68979deb1df7f17c2bdbe2ea
+  SwiftState: 99039c2b1bb130ec22f0b548315b1c9b7ac83160
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  Tabman: 6326ec3a792da1c2a6e79c7eddb56af7b591c9d6
+  TBEmptyDataSet: 1da712a3e0c324179253960165202d30009cba26
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+  ZIPFoundation: 68c35eb2637c21abe56dc60b3277636443bc1501
+
+PODFILE CHECKSUM: e3997682b1a4130848352a40b727b222f299f647
+
+COCOAPODS: 1.12.1
